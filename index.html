@@ -9,17 +9,23 @@
 		<link rel="stylesheet" type="text/css"  href="style.css">
 
 		<script>
-		document.write("<h1>Assignment04</h1><h3>Responsive 9*9</h3>");
 
-		for (var i = 1; i <10; i++){
-			document.write("<div class = \"container\">")
-			for (var j =1; j <= i; j++) {
-				document.write("<div class = \"item-1\">"+j+"*"+i+"=" + i*j + "</div>");
+		function add99 () {
 
+			document.write("<h1>Assignment04</h1><h3>Responsive 9*9</h3>");
+
+			for (var i = 1; i <10; i++){
+				document.write("<div class = \"container\">")
+				for (var j =1; j <= i; j++) {
+					document.write("<div class = \"item-1\">"+j+"*"+i+"=" + i*j + "</div>");
+
+				}
+				document.write("</div>");
 			}
-			document.write("</div>");
+			document.write("<div class=\"footer\"><a href = \"https://github.com/Jasonbroker/1KE-Assignment04/archive/master.zip\">源码下载<a></div>");
 		}
-		document.write("<div class=\"footer\"><a href = \"https://github.com/Jasonbroker/1KE-Assignment04/archive/master.zip\">源码下载<a></div>");
+
+		add99 ();
 
 		</script>
 		
