@@ -1,4 +1,4 @@
-@media (min-width: 800px) {
+@media (min-width: 600px) {
 
 .item-1 {
 	margin: 5px;
@@ -19,7 +19,7 @@
 	}
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 
 .item-1 {
 	margin: 5px;
